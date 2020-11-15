@@ -26,18 +26,6 @@ function hexColorAllocate($im,$hex){
     return imagecolorallocate($im, $a, $b, $c); 
 }
 
-echo "Input URL : ";
-$url = trim(fgets(STDIN));
-cekurl($url); exit;
-
-if(cekurl($url) == false){
-	echo "\nInput url gambar";
-}else{
-	echo "\n sukses";
-}
-exit;
-
-
 $frame = 'frame.png';
 $gambar = 'sample.jpg';
 
